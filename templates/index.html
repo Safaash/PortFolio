@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>PortFolio using django and Bootstrap-5</title>
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+        <div class="container-lg">
+            <a class="navbar-brand text-danger fs-4 fw-bold " href="#home">S.A</a>
+            <div class="dropdown ">
+                <button class="btn btn-secondary dropdown-toggle btn-danger px-3" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end  " aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#home">Home</a></li>
+                    <li><a class="dropdown-item" href="#about">About</a></li>
+                    <li><a class="dropdown-item" href="#services">Services</a></li>
+                    <li><a class="dropdown-item" href="#portfolio">PortFolio</a></li>
+                    <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+                    <li><a class="dropdown-item" href="#contact">Contact</a></li>
+                </ul>
+            </div </div>
+
+
+    </nav>
+
+    <section class="home py-5 bg-light " id="home">
+        <div class="container">
+            <div class="row  align-items-center align-content-center min-vh-100 ">
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="img ">
+                        <img src="https://source.unsplash.com/450x450/?man,company"
+                            class="rounded-circle mx-auto d-block" " alt=" ...">
+                    </div>
+
+                </div>
+                <div class="col-md-6 order-md-first mt-5 mt-md-0 ">
+                    <div class="text ">
+                        <p class="text-muted mb-1">Hello,I'm a</p>
+                        <h1 class="text-danger fs-1 fw-bold">WEB DEVELOPER</h1>
+                        
+
+                        <div class="button">
+                           <a href="#about"> <button type="button" class="btn btn-danger" >Know more</button></a>
+                        </div> 
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about bg-white " id="about">
+        <div class="container">
+            <div class="row">
+
+                <h2 class="text-center fw-bold py-4">About Me</h2>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="row">
+                        <p class="text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eaque ducimus similique in voluptatibus tempore deleniti necessitatibus harum et provident. Impedit debitis aspernatur ut sequi fugiat laborum sint minima nobis.</p>
+                    </div>
+
+                    <div class="row text-center text-uppercase my-3 ">
+                        <div class="col-sm-4 ">
+                            <div class="factitem">
+                                <h4 class="fs-1 fw-bold">110</h4>
+                                <p class="text-muted">Projects Completed</p>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="factitem">
+                                <h4 class="fs-1 fw-bold">75</h4>
+                                <p class="text-muted">Happy Customers</p>
+                            </div>
+
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="factitem">
+                                <h4 class="fs-1 fw-bold">45</h4>
+                                <p class="text-muted">Positive Reviews</p>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+
+                    <div class="row mb-5 ">
+                        <div class="col md-12 d-flex align-items-center">
+                            <button type="button" class="btn btn-danger me-5 ">Download CV</button>
+                            <div class="social-links">
+                                <a href="#" class="text-dark me-2"><i class="fa fa-facebook-f "></i></a>
+                                <a href="#" class="text-dark me-2"><i class="fa fa-instagram "></i></a>
+                                <a href="#" class="text-dark me-2"><i class="fa fa-linkedin "></i></a>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0 ">
+                    <div class="skills  mb-4">
+                        <h3 class="fs-6  text-muted">
+                            Html
+                        </h3>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skills mb-4">
+                        <h3 class="fs-6 text-muted">
+                            Python
+                        </h3>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 72%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skills  mb-4">
+                        <h3 class="fs-6 text-muted">
+                            Django
+                        </h3>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skills  mb-4">
+                        <h3 class="fs-6 text-muted">
+                            Bootstrap 5
+                        </h3>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 60%;"
+                                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </di>
+        </div>
+
+        </div>
+    </section>
+    <!-- about section ends -->
+    <!-- service section starts -->
+    <section class="services bg-light " id="services">
+        <div class="container  ">
+            <div class="row">
+                <h2 class="text-center fw-bold py-4">What I do</h2>
+            </div>
+            <!-- <div class="row">
+                <div class="col-lg-8">
+                    <div class="section">
+                        <h2 class="fw-bold mb-5">What I do</h2>
+                    </div>
+                </div>
+            </div> -->
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <div class="icons text-center pt-3">
+                            <a href="#" class="text-danger fs-3 "><i class="	fa fa-laptop "></i></a>
+                        </div>
+
+
+
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Web Design</h5>
+                            <p class="card-text text-center">Some quick example text to build on the card title and make
+                                up the bulk of the card's content.</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <div class="icons text-center pt-3">
+                            <a href="#" class="text-danger fs-3 "><i class="	fa fa-code "></i></a>
+                        </div>
+
+
+
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Web Development</h5>
+                            <p class="card-text text-center">Some quick example text to build on the card title and make
+                                up the bulk of the card's content.</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="card" style="width: 18rem;">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <div class="icons text-center pt-3">
+                            <a href="#" class="text-danger fs-3 "><i class="		fa fa-code-fork "></i></a>
+                        </div>
+
+
+
+                        <div class="card-body">
+                            <h5 class="card-title text-center">software Testing</h5>
+                            <p class="card-text text-center">Some quick example text to build on the card title and make
+                                up the bulk of the card's content.</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4 ">
+                <div class="col-md-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <div class="icons text-center pt-3">
+                            <a href="#" class="text-danger fs-3 "><i class="	fa fa-mobile "></i></a>
+                        </div>
+
+
+
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Creative Design</h5>
+                            <p class="card-text text-center">Some quick example text to build on the card title and make
+                                up the bulk of the card's content.</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <div class="icons text-center pt-3">
+                            <a href="#" class="text-danger fs-3 "><i class="	fa fa-file-picture-o"></i></a>
+                        </div>
+
+
+
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Photography</h5>
+                            <p class="card-text text-center">Some quick example text to build on the card title and make
+                                up the bulk of the card's content.</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <div class="icons text-center pt-3">
+                            <a href="#" class="text-danger fs-3 "><i class="			fa fa-print "></i></a>
+                        </div>
+
+
+
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Photoshop</h5>
+                            <p class="card-text text-center">Some quick example text to build on the card title and make
+                                up the bulk of the card's content.</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- service section ends -->
+
+    <!-- portfolio section starts -->
+    <section class="portfolio bg-white" id="portfolio">
+        <div class="container ">
+            <div class="row">
+                <h2 class="text-center fw-bold py-4">My Works</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card-body">
+                        <img src="https://source.unsplash.com/275x175/?team,creativity" class=" img-thumbnail"
+                            alt="...">
+
+                        <h5 class="fs-5 my-2 text-capitalize">Creative team selection</h5>
+                       
+
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="card-body">
+                        <img src="https://source.unsplash.com/275x175/?team,people" class=" img-thumbnail" alt="...">
+
+                        <h5 class="fs-5 my-2 text-capitalize">Team Section</h5>
+                        
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-body">
+                        <img src="https://source.unsplash.com/275x175/?app,page" class=" img-thumbnail" alt="...">
+
+                        <h5 class="fs-5 my-2 text-capitalize">app landing page</h5>
+                       
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card-body">
+                        <img src="https://source.unsplash.com/275x175/?price,money,table" class=" img-thumbnail"
+                            alt="...">
+
+                        <h5 class="fs-5 my-2 text-capitalize">toggle pricing table</h5>
+                        
+
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="card-body">
+                        <img src="https://source.unsplash.com/275x175/?team,gallery" class=" img-thumbnail" alt="...">
+
+                        <h5 class="fs-5 my-2 text-capitalize">bootstrap image gallary</h5>
+                        
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-body">
+                        <img src="https://source.unsplash.com/275x175/?app,image,page" class=" img-thumbnail" alt="...">
+
+                        <h5 class="fs-5 my-2 text-capitalize">filterable image gallery</h5>
+                        
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- portfolio section ends -->
+    <section class="jobs">
+        <div class="container-fluid">
+            <div class="bg-danger text-light text-center justify-content-center py-5">
+                <p class="fs-5 text-light">Do you have any project?</p>
+                <h2 class="text-capitalize fs-1 text-white mb-4">
+                    I'm available for freelancer projects.
+                </h2>
+                <a href="#contact" class="btn btn-outline-light">Hire Me</a>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials bg-light" id="testimonials">
+        <div class="container py-4">
+            <div class="text-center py-4 fw-bold">
+                <h2>Testimonials </h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+
+                    <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0"
+                                class="bg-danger active" aria-current="true" aria-label="Slide 1"></button>
+                            <button class="bg-danger" type="button" data-bs-target="#carousel1" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button class="bg-danger" type="button" data-bs-target="#carousel1" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner p-1">
+                            <!-- test iems starts here -->
+                            <div class="bg-white rounded p-4 carousel-item active mb-5">
+                                <div class="auther-info d-flex align-items-center">
+                                    <img src="https://source.unsplash.com/75x75/?man,male"" alt="" class=" img-thumbnail
+                                        rounded-circle">
+                                    <div class="author ms-3">
+                                        <h3 class="fs-6">Mikhael Mihan</h3>
+                                        <P class="text-muted m-0">Team Lead </P>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">I loved your works.Its really awesome.</p>
+                                <div class="ratings text-danger">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+
+
+                            <div class="bg-white rounded p-4 carousel-item mb-5">
+                                <div class="auther-info d-flex align-items-center">
+                                    <img src="https://source.unsplash.com/75x75/?app,man,male"" alt="" class="
+                                        img-thumbnail rounded-circle">
+                                    <div class="author ms-3">
+                                        <h3 class="fs-6">Ashik Parambil</h3>
+                                        <P class="text-muted m-0">Project Manager </P>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">I loved the design of your websites.</p>
+                                <div class="ratings text-danger">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="bg-white rounded p-4 carousel-item mb-5">
+                                <div class="auther-info d-flex align-items-center">
+                                    <img src="https://source.unsplash.com/75x75/?office,man,male"" alt="" class="
+                                        img-thumbnail rounded-circle">
+                                    <div class="author ms-3">
+                                        <h3 class="fs-6">Rahul Gupta</h3>
+                                        <P class="text-muted m-0">Seo Manager </P>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">I like your works.</p>
+                                <div class="ratings text-danger">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- test items ends here -->
+        </div>
+
+
+
+
+
+
+    </section>
+
+
+
+
+    <!-- contact section starts -->
+    <section class="contact bg-white" id="contact">
+        <div class="container py-4">
+            <div class="text-center py-4 fw-bold">
+                <h2>Contact Me </h2>
+            </div>
+            <div class="row d-flex">
+                <div class="col-md-5">
+                    <div class=" p-4 mt-3">
+                        <div class="item1 d-flex align-items-center mb-3">
+                            <div class=" contact-item-1 fs-4 text-danger">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                                <div class="email-info ms-3">
+                                    <h3 class="fs-6 m-0">Email</h3>
+                                    <p class="text-muted m-0">example@gmail.com</p>
+                                </div>
+                        </div>
+                        
+                        
+                        <div class="item-2 d-flex align-items-center mb-3">
+                            <div class="contact-item-2 phone fs-4 text-danger">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                                <div class="email-info ms-3">
+                                    <h3 class="fs-6 m-0">Phone</h3>
+                                    <p class="text-muted m-0">+91 895632****</p>
+                                </div>
+                            
+                        </div>
+
+                        <div class="item-2 d-flex align-items-center mb-3">
+                            <div class="contact-item-2 phone fs-4 text-danger">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                                <div class="email-info ms-3">
+                                    <h3 class="fs-6 m-0">Visit Office</h3>
+                                    <p class="text-muted m-0">123 street,Kerala-784512</p>
+                                </div>
+                            
+                        </div>
+                        
+
+
+                    
+                            
+
+                            
+                        
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <form action="contact" method="post">
+                            {% csrf_token %}
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="name" class="form-label"></label>
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name" name="name">
+                                  </div>
+      
+                                  <div class="col-md-6">
+                                    <label for="email" class="form-label"></label>
+                                    <input type="email" class="form-control" id="email"placeholder="Your Email" name="email">
+                                  </div>
+                            </div>
+                            
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="phone" class="form-label"></label>
+                                    <input type="text" class="form-control" id="subject"placeholder="Subject" name="subject">
+                                  </div>
+                            </div>
+                           
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="phone" class="form-label"></label>
+                                    <textarea row="5" class="form-control" id="message"placeholder="Your Message" name="message"></textarea>
+                                </div>
+    
+                            </div>
+                            
+                                <div class="row">
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-danger px-3 mt-4">Send Message</button>
+                                    </div>
+                                </div>
+                                
+                            
+                            
+                          </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+        
+    </section>
+
+
+
+    <footer class="footer text-center text-muted py-3 border-top">
+       copyrights &copy; 2021
+    </footer>
+    <!-- contact section ends -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
